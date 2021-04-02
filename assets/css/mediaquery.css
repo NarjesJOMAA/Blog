@@ -1,0 +1,30 @@
+@media screen and (max-width: 640px) {
+    .tailleimg {
+        width: 100%;
+        padding-right: 45px;
+    }
+  }
+@media screen and (max-width: 640px) {
+    .tailleimg:hover {
+        transform: scale(1.0);
+    }
+  }
+@media screen and (max-width: 640px) {
+    .test {
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+  }
+@media screen and (max-width: 640px) {
+    .btn {
+        cursor:pointer;
+            position:relative;
+            padding:8px 15px;
+            background:grey;
+            font-size:15px;
+            border-top-right-radius:10px;
+            border-bottom-left-radius:10px;
+            transition:all 2s;
+            font-family: Caviar;
+    }
+}

@@ -1,0 +1,88 @@
+@font-face
+{
+    font-family: 'Candal';
+    src: url(../font/candal/Candal.ttf);
+}
+@font-face
+{
+    font-family: 'Caviar';
+    src: url(../font/caviar/CaviarDreams_BoldItalic.ttf);
+}
+
+body {
+    background-image: url(../img/y-so-serious-white.png);
+}
+h4 {
+    text-decoration: underline;
+    
+}
+h2 {
+    text-shadow: 2px 2px 2px grey;
+    font-family: candal;
+    font-size: 25px;
+}
+.tailleimg {
+    margin-top: 10px;
+    width: 10%;
+    
+}
+.tailleimg:hover {
+    transform: scale(1.1);
+  }
+
+.name {
+    text-decoration: underline;
+}
+nav, p {
+    font-family: Caviar;
+}
+.comments2 {
+    text-align: right;
+    background-color: gainsboro;
+}
+
+.comments3 {
+    margin-top: 7px;
+    margin-left: 8px;
+}
+.commentsdiv {
+    background-color: gainsboro;
+}
+.btn {
+    cursor:pointer;
+        position:relative;
+        padding:8px 15px;
+        background:grey;
+        font-size:15px;
+        border-top-right-radius:10px;
+        border-bottom-left-radius:10px;
+        transition:all 2s;
+        font-family: Caviar;
+}
+.anim {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.imgrotat {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
